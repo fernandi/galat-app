@@ -68,7 +68,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/LES_FURTIFS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225198/galat-app/LES_FURTIFS.png"
   },
   {
     "id": 2,
@@ -133,7 +133,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/SEVEN_CLICKS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225203/galat-app/SEVEN_CLICKS.png"
   },
   {
     "id": 3,
@@ -198,7 +198,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/NFT_REPLICAS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/NFT_REPLICAS.png"
   },
   {
     "id": 4,
@@ -327,7 +327,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/FRESQUE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/FRESQUE.jpg"
   },
   {
     "id": 6,
@@ -456,7 +456,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ALIAS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/ALIAS.jpg"
   },
   {
     "id": 8,
@@ -585,7 +585,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/DESIGN_GUIDE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/DESIGN_GUIDE.jpg"
   },
   {
     "id": 10,
@@ -650,7 +650,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/BLACK_MIRROR.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/BLACK_MIRROR.jpg"
   },
   {
     "id": 11,
@@ -715,7 +715,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/CHAUFFEUR_PRIVE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/CHAUFFEUR_PRIVE.jpg"
   },
   {
     "id": 12,
@@ -780,7 +780,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/THE_DISCONNECT.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/THE_DISCONNECT.jpg"
   },
   {
     "id": 13,
@@ -973,7 +973,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/FAIRTEC.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225199/galat-app/FAIRTEC.jpg"
   },
   {
     "id": 16,
@@ -1038,7 +1038,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/FRAMASOFT.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/FRAMASOFT.jpg"
   },
   {
     "id": 17,
@@ -1103,7 +1103,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/INSIDE_AIRBNB.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/INSIDE_AIRBNB.jpg"
   },
   {
     "id": 18,
@@ -1424,7 +1424,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ONESTLA.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/ONESTLA.png"
   },
   {
     "id": 23,
@@ -1489,7 +1489,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/OPEN_STREET_MAPS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225198/galat-app/OPEN_STREET_MAPS.png"
   },
   {
     "id": 24,
@@ -1554,7 +1554,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/STOP_AMAZON.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/STOP_AMAZON.jpg"
   },
   {
     "id": 25,
@@ -1619,7 +1619,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/KREUZBERG.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/KREUZBERG.png"
   },
   {
     "id": 26,
@@ -1812,7 +1812,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/GREVE_DELIVEROO.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225201/galat-app/GREVE_DELIVEROO.jpg"
   },
   {
     "id": 29,
@@ -1941,7 +1941,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/UBERFILES.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/UBERFILES.jpg"
   },
   {
     "id": 31,
@@ -2006,7 +2006,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/BOSSWARE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/BOSSWARE.jpg"
   },
   {
     "id": 32,
@@ -2071,7 +2071,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/TECH_TRASH.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225202/galat-app/TECH_TRASH.png"
   },
   {
     "id": 33,
@@ -2136,7 +2136,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/CENTER_FOR_TECHNOLOGICAL_PAIN.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/CENTER_FOR_TECHNOLOGICAL_PAIN.jpg"
   },
   {
     "id": 34,
@@ -2201,7 +2201,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/MORAL_SCORE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225198/galat-app/MORAL_SCORE.png"
   },
   {
     "id": 35,
@@ -2266,7 +2266,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/FOR_WHAT_ITS_WORTH.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225199/galat-app/FOR_WHAT_ITS_WORTH.jpg"
   },
   {
     "id": 36,
@@ -2331,7 +2331,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/DISNOVATION.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/DISNOVATION.jpg"
   },
   {
     "id": 37,
@@ -2396,7 +2396,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/THE_FOLLOWER.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/THE_FOLLOWER.png"
   },
   {
     "id": 38,
@@ -2461,7 +2461,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/E_OS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/E_OS.jpg"
   },
   {
     "id": 39,
@@ -2526,7 +2526,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/MEMOIRES_VIVES.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/MEMOIRES_VIVES.jpg"
   },
   {
     "id": 40,
@@ -2591,7 +2591,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ZOWN.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/ZOWN.jpg"
   },
   {
     "id": 41,
@@ -2720,7 +2720,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/FAIRPHONE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/FAIRPHONE.jpg"
   },
   {
     "id": 43,
@@ -2977,7 +2977,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/MY_COUNTRY_TALKS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225201/galat-app/MY_COUNTRY_TALKS.jpg"
   },
   {
     "id": 47,
@@ -3042,7 +3042,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/MEATFACE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225201/galat-app/MEATFACE.png"
   },
   {
     "id": 48,
@@ -3747,7 +3747,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ALGOVILLE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/ALGOVILLE.jpg"
   },
   {
     "id": 59,
@@ -3812,7 +3812,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/AUTOPSIE_NUMERIQUE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225199/galat-app/AUTOPSIE_NUMERIQUE.jpg"
   },
   {
     "id": 60,
@@ -3941,7 +3941,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/LA_BIBLIO_TECH.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225194/galat-app/LA_BIBLIO_TECH.png"
   },
   {
     "id": 62,
@@ -4070,7 +4070,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/DERRIERE_NOS_ECRANS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/DERRIERE_NOS_ECRANS.jpg"
   },
   {
     "id": 64,
@@ -4135,7 +4135,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/SILICONVALLEY.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/SILICONVALLEY.png"
   },
   {
     "id": 65,
@@ -4200,7 +4200,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/LIGHT_PHONE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225202/galat-app/LIGHT_PHONE.jpg"
   },
   {
     "id": 66,
@@ -4265,7 +4265,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/BAD_BLOOD.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/BAD_BLOOD.jpg"
   },
   {
     "id": 67,
@@ -4330,7 +4330,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/NEWSFEED.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225198/galat-app/NEWSFEED.png"
   },
   {
     "id": 68,
@@ -4395,7 +4395,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ANATOMY_OF_AI.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225200/galat-app/ANATOMY_OF_AI.jpg"
   },
   {
     "id": 69,
@@ -4460,7 +4460,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/MOI_DANIELBLAKE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225199/galat-app/MOI_DANIELBLAKE.jpg"
   },
   {
     "id": 70,
@@ -4525,7 +4525,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/LOW_TECH_MAGAZINE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/LOW_TECH_MAGAZINE.png"
   },
   {
     "id": 71,
@@ -4590,7 +4590,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ATTAQUONS_GOOGLE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/ATTAQUONS_GOOGLE.jpg"
   },
   {
     "id": 72,
@@ -4655,7 +4655,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/TECHNO_POLICE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225199/galat-app/TECHNO_POLICE.png"
   },
   {
     "id": 73,
@@ -4912,7 +4912,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/NIGHT_NIGHT.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225200/galat-app/NIGHT_NIGHT.png"
   },
   {
     "id": 77,
@@ -4977,7 +4977,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/MEJNOUN.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225202/galat-app/MEJNOUN.png"
   },
   {
     "id": 78,
@@ -5042,7 +5042,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/JE_CHOISIS_FRENCH_TECH.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/JE_CHOISIS_FRENCH_TECH.jpg"
   },
   {
     "id": 79,
@@ -5107,7 +5107,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/HYPERLIENS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225201/galat-app/HYPERLIENS.png"
   },
   {
     "id": 80,
@@ -5172,7 +5172,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/SPOTS_RAMPAGE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/SPOTS_RAMPAGE.jpg"
   },
   {
     "id": 81,
@@ -5237,7 +5237,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/RELEASE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/RELEASE.png"
   },
   {
     "id": 82,
@@ -5430,7 +5430,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/EMMAUS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/EMMAUS.png"
   },
   {
     "id": 85,
@@ -5495,7 +5495,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/LA_LIBRAIRIE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225198/galat-app/LA_LIBRAIRIE.png"
   },
   {
     "id": 86,
@@ -5624,7 +5624,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/RADIOOO.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225202/galat-app/RADIOOO.jpg"
   },
   {
     "id": 88,
@@ -5689,7 +5689,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/COUPURES.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/COUPURES.jpg"
   },
   {
     "id": 89,
@@ -5754,7 +5754,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/ODA.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/ODA.jpg"
   },
   {
     "id": 90,
@@ -5883,7 +5883,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/NO_MORE_GOOGLE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/NO_MORE_GOOGLE.png"
   },
   {
     "id": 92,
@@ -5948,7 +5948,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/JAZZ_KEYS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225195/galat-app/JAZZ_KEYS.jpg"
   },
   {
     "id": 93,
@@ -6205,7 +6205,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/A_TAP_ESSAY.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225201/galat-app/A_TAP_ESSAY.jpg"
   },
   {
     "id": 97,
@@ -6334,7 +6334,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/SONAR.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/SONAR.png"
   },
   {
     "id": 99,
@@ -6399,7 +6399,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/REFLECTACLES.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/REFLECTACLES.png"
   },
   {
     "id": 100,
@@ -6528,7 +6528,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/DATA_MULES.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225194/galat-app/DATA_MULES.jpg"
   },
   {
     "id": 102,
@@ -6593,7 +6593,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/SIGNAL.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225197/galat-app/SIGNAL.png"
   },
   {
     "id": 103,
@@ -6658,7 +6658,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/GOOGLE MAPS-HACKS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/GOOGLE%20MAPS-HACKS.jpg"
   },
   {
     "id": 104,
@@ -6723,7 +6723,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/TECH_TRANSPARENCY_PROJECT.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/TECH_TRANSPARENCY_PROJECT.png"
   },
   {
     "id": 105,
@@ -6788,7 +6788,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/UNFIT_BITS.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225198/galat-app/UNFIT_BITS.jpg"
   },
   {
     "id": 106,
@@ -6853,7 +6853,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/CARBONALYSER.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/CARBONALYSER.jpg"
   },
   {
     "id": 107,
@@ -6982,7 +6982,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/HOW_NORMAL.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225196/galat-app/HOW_NORMAL.jpg"
   },
   {
     "id": 109,
@@ -7431,7 +7431,7 @@ export const GALAT_DATA = [
       0,
       0
     ],
-    "image": "/entry-images/GLAZE.jpeg"
+    "image": "https://res.cloudinary.com/dnb0rjdxq/image/upload/v1756225200/galat-app/GLAZE.jpg"
   },
   {
     "id": 116,
