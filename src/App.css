@@ -1,0 +1,632 @@
+/* Reset et styles de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Layout principal */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 0;
+}
+
+.header-content {
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #666;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.header-count {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Section d'introduction */
+.intro {
+  background: white;
+  padding: 8rem 0 3rem;
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.intro-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.intro-content p {
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Section de recherche */
+.search-section {
+  background: white;
+  padding: 2rem 0;
+ /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.search-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #999;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: white;
+  color: #333;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007acc;
+  box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.1);
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-loading {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #666;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+}
+
+.loading-icon {
+  width: 1rem;
+  height: 1rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-modes {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.search-mode {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search-mode:hover {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.search-mode.active {
+  background: #007acc;
+  color: white;
+  border-color: #007acc;
+}
+
+/* Section des tags */
+.tags-section {
+  background: white;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tags-content {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.tags-bar {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.tag-button:hover {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.tag-button.active {
+  background: #333;
+  color: white;
+  border-color: #333;
+}
+
+/* Section des résultats */
+.results-section {
+  flex: 1;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.results-section > div {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Grille des résultats */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 0;
+  width: 100%;
+}
+
+/* Cartes d'entrée */
+.entry-card {
+  background: white;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  border-radius: 0;
+  transition: box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.entry-card:hover {
+  background-color:  rgb(253, 253, 253);
+}
+
+/* Catégorie au-dessus du titre */
+.entry-category {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+/* Couleurs des catégories sans arrière-plan */
+.entry-category[data-category="redfinition"] { color: #7c3aed; }
+.entry-category[data-category="narration"] { color: #1d4ed8; }
+.entry-category[data-category="exploration"] { color: #15803d; }
+.entry-category[data-category="refus"] { color: #dc2626; }
+.entry-category[data-category="information"] { color: #d97706; }
+.entry-category[data-category="regles"] { color: #4338ca; }
+.entry-category[data-category="reappropriation"] { color: #be185d; }
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.entry-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+  flex: 1;
+}
+
+.entry-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.source-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  margin-left: auto;
+}
+
+.source-icon-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.source-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.source-icon-link:hover .source-icon {
+  opacity: 1;
+}
+
+.tag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Couleurs des tags corrigées */
+.tag-redfinition { background: #f3e8ff; color: #7c3aed; }
+.tag-narration { background: #dbeafe; color: #1d4ed8; }
+.tag-exploration { background: #dcfce7; color: #15803d; }
+.tag-refus { background: #fee2e2; color: #dc2626; }
+.tag-information { background: #fef3c7; color: #d97706; }
+.tag-regles { background: #e0e7ff; color: #4338ca; }
+.tag-reappropriation { background: #fce7f3; color: #be185d; }
+
+.entry-author {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.entry-content {
+  margin-bottom: 1rem;
+}
+
+.entry-text {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Zone d'image - format carré au-dessus du texte */
+.entry-image {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  order: -1;
+  position: relative;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  color: #999;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  max-width: calc(100% - 16px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.image-placeholder {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.entry-image-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Zone de titre pour cartes sans image/citation */
+.entry-title-square {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  order: -1;
+  background: white;
+  border: 1px solid #e0e0e0;
+}
+
+.title-placeholder {
+  color: #999;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
+  max-width: 90%;
+  line-height: 1.3;
+}
+
+/* Zone de citation - format carré comme les images */
+.entry-quote {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  order: -1;
+  background: #f0f8ff;
+}
+
+.entry-quote blockquote {
+  font-style: italic;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  max-width: 90%;
+}
+
+
+
+
+
+.entry-score {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.search-type {
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+.search-type.semantic {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.search-type.keyword {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.score-value {
+  font-weight: 500;
+}
+
+/* État de chargement */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: 1rem;
+}
+
+.loading-spinner {
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007acc;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Aucun résultat */
+.no-results {
+  text-align: center;
+  padding: 3rem 0;
+  width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-results-icon {
+  width: 4rem;
+  height: 4rem;
+  color: #ccc;
+  margin: 0 auto 1rem;
+}
+
+.no-results-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.no-results-subtext {
+  color: #999;
+}
+
+/* Responsive amélioré */
+
+@media (max-width: 768px) {
+  .header-content,
+  .intro-content,
+  .search-content,
+  .tags-content {
+    padding: 0 1rem;
+  }
+  
+  .results-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .entry-card {
+    border-right: none;
+  }
+  
+  .entry-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .tags-bar {
+    justify-content: center;
+  }
+  
+  .search-modes {
+    justify-content: center;
+  }
+  
+  .intro-content p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.2rem;
+  }
+  
+  .entry-card {
+    padding: 1rem;
+  }
+  
+  .tags-bar {
+    gap: 0.25rem;
+  }
+  
+  .tag-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  
+  .search-modes {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-mode {
+    width: 100%;
+    max-width: 200px;
+  }
+}
